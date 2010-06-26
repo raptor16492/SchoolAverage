@@ -15,7 +15,12 @@ public class Marks {
 		System.out.println("Enter your marks: ");
 		for (int getMarks_counter = 0; getMarks_counter < numberOfMarks; getMarks_counter++) {
 			 mark[getMarks_counter] = SchoolAverage.s.nextInt();
-			 LocalFile.writeFile(Integer.toString(mark[getMarks_counter]));
+		}
+	}
+	
+	public static void arrayToFile() {
+		for (int arrayToFile_counter = 0; arrayToFile_counter < mark.length; arrayToFile_counter++) {
+			 LocalFile.writeFile(Integer.toString(mark[arrayToFile_counter]));
 		}
 	}
 	
