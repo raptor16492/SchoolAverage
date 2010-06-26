@@ -8,7 +8,7 @@ public class SchoolAverage {
 		Subject.getSubjectName();
 		Marks.getNumberOfMarks();
 		Marks.getMarks();
-		Marks.arrayToFile();
+		LocalFile.arrayToFile();
 		Marks.addMarks();
 		Marks.calculateSubjectAverage();
 		System.out.println("Your average in " + Subject.subjectName + " is " + Marks.subjectAverage);
