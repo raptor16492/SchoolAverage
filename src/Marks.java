@@ -1,4 +1,3 @@
-//
 public class Marks {
 
 	public static int numberOfMarks;

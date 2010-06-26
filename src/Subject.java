@@ -1,4 +1,3 @@
-//
 public class Subject {
 
 	public static String subjectName;
