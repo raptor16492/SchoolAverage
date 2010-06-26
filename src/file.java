@@ -1,5 +1,3 @@
-//hi
-
 import java.io.*;
 
 public class file {
